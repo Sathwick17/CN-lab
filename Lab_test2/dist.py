@@ -32,6 +32,7 @@ class Topology:
             print()
             
     def print_routing_table(self, node, dist, next_hop):
+        if node == 'C':
         print(f'Routing table for {node}:')
         print()
         print('Dest \t Cost \t Next Hop')
